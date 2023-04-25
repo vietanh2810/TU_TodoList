@@ -82,7 +82,7 @@ class UserTest extends PHPUnit\Framework\TestCase {
 
     public function testContentLength()
     {
-        $sut = new User('valid_email@gmail.com', 'John', 'Doe', '20-01-2009', 'Kinkute1.', $this->emailAPI);
+        $sut = new User('valid_email@gmail.fr', 'John', 'Doe', '20-01-2009', 'Kinkute1.', $this->emailAPI);
 
         $this->emailAPI->expects($this->any())
             ->method('checkEmail')
