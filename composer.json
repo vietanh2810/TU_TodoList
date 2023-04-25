@@ -1,6 +1,12 @@
 {
+    "name": "php/php",
+    "type": "project",
+    "description": "The Laravel Framework.",
+    "license": "MIT",
     "require-dev": {
         "phpunit/phpunit": "^9"
     },
-    "test": "vendor/bin/phpunit"
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
 }
